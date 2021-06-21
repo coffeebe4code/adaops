@@ -1,0 +1,8 @@
+{
+    "ada.projectFile": "project.gpr",
+    "ada.scenarioVariables": {
+        "GLFW_Version": "3",
+        "GLFW_Lib": "-lglfw",
+        "Windowing_System": "x11"
+    }
+}
