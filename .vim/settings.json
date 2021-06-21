@@ -1,5 +1,5 @@
 {
-    "ada.projectFile": "project.gpr",
+    "ada.projectFile": "build.gpr",
     "ada.scenarioVariables": {
         "GLFW_Version": "3",
         "GLFW_Lib": "-lglfw",
