@@ -1,6 +1,7 @@
 with Ada.Command_Line; use Ada.Command_Line;
 with Ada.Text_IO;      use Ada.Text_IO;
 with Ada.Strings;      use Ada.Strings;
+with init; use init;
 
 procedure Main is
 -- init will create a project in the current directory with vim settings
@@ -17,6 +18,7 @@ begin
     case Args'Value (Argument (1)) is
       when init =>
         Put_Line ("init here");
+        create_init;
       when help =>
         show_help;
       when copy =>
