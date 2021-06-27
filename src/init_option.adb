@@ -3,7 +3,7 @@ with Ada.Directories; use Ada.Directories;
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 
 
-package body init is
+package body Init_Option is
 
   type files_itr is range 1 .. 3;
   type dir_itr is range 1 .. 3;
@@ -12,7 +12,7 @@ package body init is
 
   function ubs (S : String) return Unbounded_String renames To_Unbounded_String;  
   
-  files : array_files := (ubs ("main.adb"), ubs ("settings.json"), ubs ("build.gpr"));
+  files : array_files := (ubs ("main.adb"), ubs ("build.gpr"), ubs ("build-tests.gpr"));
   dirs : array_dirs := (ubs ("obj"), ubs ("src"), ubs (".vim"));
 
   procedure create_init is

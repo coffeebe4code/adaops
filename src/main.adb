@@ -1,7 +1,7 @@
 with Ada.Command_Line; use Ada.Command_Line;
 with Ada.Text_IO;      use Ada.Text_IO;
 with Ada.Strings;      use Ada.Strings;
-with init; use init;
+with Init_Option; use Init_Option;
 
 procedure Main is
 -- init will create a project in the current directory with vim settings
