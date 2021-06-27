@@ -1,4 +1,4 @@
-project Project is
+project Build is
   type Mode_Type is ("debug", "release");
   
   for Source_Dirs use ("src");
@@ -17,5 +17,5 @@ project Project is
 
    package Linker is
    end Linker;
-end Project;
+end Build;
 

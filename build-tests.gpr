@@ -2,6 +2,7 @@ with "build.gpr";
 project Build.Tests is
   for Source_Dirs use ("tests");
   for Exec_Dir use "target";
+  for Object_Dir use "obj";
   for Main use ("test.adb");
   package Builder is
    end Builder;
